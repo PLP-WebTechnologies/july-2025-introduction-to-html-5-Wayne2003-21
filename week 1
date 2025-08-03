@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn beginner-friendly yoga poses and mindfulness techniques for a healthier lifestyle.">
+    <meta name="keywords" content="yoga for beginners, mindfulness, yoga poses, healthy lifestyle">
+    <meta name="author" content="Serenity Yoga Studio">
+    <title>Serenity Yoga Studio - Beginner Yoga & Mindfulness</title>
+</head>
+<body>
+    <header>
+        <h1>Serenity Yoga Studio</h1>
+        <p>Find Your Inner Peace with Yoga and Mindfulness</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#home" aria-current="page">Home</a></li>
+            <li><a href="#poses">Yoga Poses</a></li>
+            <li><a href="#mindfulness">Mindfulness Tips</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" aria-labelledby="welcome-heading">
+            <h2 id="welcome-heading">Welcome to Serenity Yoga</h2>
+            <p>Explore beginner-friendly yoga poses and mindfulness practices to enhance your physical and mental well-being.</p>
+        </section>
+
+        <section id="poses" aria-labelledby="poses-heading">
+            <h2 id="poses-heading">Beginner Yoga Poses</h2>
+            <article>
+                <h3>Mountain Pose</h3>
+                <p>Stand tall with feet together, grounding your body and aligning your posture for balance.</p>
+            </article>
+            <article>
+                <h3>Downward-Facing Dog</h3>
+                <p>Strengthen your arms and stretch your hamstrings in this foundational yoga pose.</p>
+            </article>
+            <article>
+                <h3>Child’s Pose</h3>
+                <p>Rest and relax in this gentle pose to release tension and calm the mind.</p>
+            </article>
+        </section>
+
+        <section id="mindfulness" aria-labelledby="mindfulness-heading">
+            <h2 id="mindfulness-heading">Mindfulness Resources</h2>
+            <ul>
+                <li><a href="https://example.com/meditation-guide" rel="external" target="_blank">Beginner’s Meditation Guide</a></li>
+                <li><a href="https://example.com/breathing-exercises" rel="external" target="_blank">Breathing Exercises</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <aside aria-labelledby="signup-heading">
+        <h2 id="signup-heading">Join Our Community</h2>
+        <p>Sign up for free yoga tips and mindfulness updates delivered to your inbox.</p>
+        <form action="/subscribe" method="post">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required aria-describedby="email-help">
+            <p id="email-help">Your email is safe with us.</p>
+            <button type="submit">Sign Up</button>
+        </form>
+    </aside>
+
+    <footer>
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p>Email: <a href="mailto:info@serenityyogastudio.com">info@serenityyogastudio.com</a></p>
+            <p>Phone: <a href="tel:+1987654321">+1 (987) 654-321</a></p>
+        </section>
+        <p>&copy; 2025 Serenity Yoga Studio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
